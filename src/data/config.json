@@ -1,0 +1,105 @@
+{
+  "site": {
+    "baseUrl": "https://jj2multiplayer.com/api",
+    "timeoutMs": 15000
+  },
+  "endpoints": {
+    "games": "rankedgames",
+    "players": "playerquery",
+    "clans": "clanquery",
+    "playerSearch": "playersearch",
+    "clanSearch": "clansearch"
+  },
+  "limits": {
+    "gamesPerPage": {
+      "default": 20,
+      "max": 100
+    },
+    "searchCount": {
+      "default": 5,
+      "max": 20
+    }
+  },
+  "gameModes": {
+    "0": "Single Player",
+    "1": "Coop",
+    "2": "Battle",
+    "3": "Race",
+    "4": "Treasure Hunt",
+    "5": "CTF"
+  },
+  "customModes": {
+    "1": "RT",
+    "2": "LRS",
+    "3": "XLRS",
+    "4": "PEST",
+    "11": "Team Battle",
+    "12": "JB",
+    "13": "DCTF",
+    "14": "FR",
+    "15": "TLRS",
+    "16": "DOM",
+    "17": "HH"
+  },
+  "characters": [
+    "Jazz",
+    "Spaz",
+    "Lori",
+    "Bird",
+    "Frog"
+  ],
+  "guns": [
+    "Blaster",
+    "Bouncer",
+    "Freezer",
+    "Seeker",
+    "RF",
+    "Toaster",
+    "TNT",
+    "Gun8",
+    "Gun9"
+  ],
+  "teams": [
+    {
+      "id": 0,
+      "name": "Blue",
+      "color": "#1a6faf"
+    },
+    {
+      "id": 1,
+      "name": "Red",
+      "color": "#af1a1a"
+    },
+    {
+      "id": 2,
+      "name": "Green",
+      "color": "#2b8300"
+    },
+    {
+      "id": 3,
+      "name": "Yellow",
+      "color": "#d5d500"
+    }
+  ],
+  "gunColors": [
+    "#707090",
+    "#0079d2",
+    "#00f0fe",
+    "#b80000",
+    "#2b8300",
+    "#a84800",
+    "#808000",
+    "#d5d500",
+    "#800094"
+  ],
+  "clanRoles": {
+    "0": "Member",
+    "1": "Owner",
+    "2": "Staff"
+  },
+  "gameTypes": [
+    "Ranked",
+    "Ladder",
+    "JDC"
+  ]
+}

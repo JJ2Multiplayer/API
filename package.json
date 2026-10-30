@@ -1,0 +1,21 @@
+{
+  "name": "jj2mp-api",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "esbuild examples/examples.ts --bundle --platform=node --format=esm --outfile=dist/examples.mjs && node dist/examples.mjs",
+    "example": "tsx examples/examples.ts",
+    "build": "esbuild src/index.ts --bundle --platform=node --format=esm --outfile=dist/index.js",
+    "typecheck": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "esbuild": "^0.28.2",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
